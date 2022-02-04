@@ -2,7 +2,7 @@
 
 This directory contains two C++ program that can be used to exract viscoelastic properties from atomistic MD simulationf of liquids:
 1) "autocorr.cpp" computes the autocorrelation functions (e.g. of the components of the stress tensor) by recursive coarse-graining in time. 
-2) "G1G2.cpp" computes the in-phase and out-of-phase components of the stress tensor [G'(omega), G"(omega)] from the autocorrelation function of the stress tensor (hear relaxation modulus).
+2) "G1G2.cpp" computes the in-phase and out-of-phase components of the shear modulus [G'(omega), G"(omega)] and complex viscosity [eta'(omega), eta"(omega)] from the autocorrelation function of the stress tensor (shear relaxation modulus).
 
 If you publish work based on this code, please cite:
 David, A., De Nicola, A., Tartaglino, U., Milano, G. and Raos, G., 2019.
